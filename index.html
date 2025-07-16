@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+ <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+
+  <title>Rock Paper Scissors</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+    <h1>🎮🕹️👾🖥️🖱</h1>
+    <h1>Rock Paper Scissors</h1>
+
+    <!-- Score Board -->
+    <div class="score-board">
+      <p>Won: <span id="win">0</span></p>
+      <p>Lost: <span id="lose">0</span></p>
+      <p>Draw: <span id="draw">0</span></p>
+    </div>
+
+    <!-- Hands Display -->
+    <div class="hands">
+      <div id="playerHand">✊</div>
+      <div id="vs">vs</div>
+      <div id="computerHand">✊</div>
+    </div>
+
+    <!-- Result Message -->
+    <h2 id="result">Make your move!</h2>
+
+    <!-- Game Options -->
+    <div class="options">
+      <button onclick="play('rock')">Rock</button>
+      <button onclick="play('paper')">Paper</button>
+      <button onclick="play('scissors')">Scissors</button>
+    </div>
+  </div>
+
+  <!-- Script -->
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #1e1e2f;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+}
+
+.hands {
+  display: flex;
+  justify-content: center;
+  font-size: 5rem;
+  margin: 20px 0;
+  gap: 30px;
+}
+
+.score-board p {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.options button {
+  background: none;
+  color: #fff;
+  font-family: "Poppins";
+  border: 1px solid #fff;
+  padding: 1em 2em;
+  border-radius: 7px;
+  width: 150px;
+  white-space: nowrap;
+  cursor: pointer;
+  outline: none;
+  margin: 10px;
+  transition: 0.2s all linear;
+}
+
+.options button:hover {
+  background-color: #fff;
+  color: #1e1e2f;
+}
